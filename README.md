@@ -9,3 +9,4 @@ elasticsearch-analysis-ik-6.2.3/src/main/java/org/wltea/analyzer/core/CharacterU
 elasticsearch-analysis-ik-6.2.3/src/main/java/org/wltea/analyzer/core/AnalyzeContext.java  
 目的是不让这些特殊字符单独输出成为索引
 
+此项目属于被修改后重新打包过的，直接使用target下的elasticsearch-analysis-ik-6.2.3.jar覆盖es项目中plugins/ik文件夹下的指定文件，重启ES即可。
